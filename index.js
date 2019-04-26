@@ -16,6 +16,4 @@ class Formatter {
     arr.map(word => (exclusion.find(exc => exc == word)) ? newArr.push(word) : newArr.push(this.capitalize(word)))
     return newArr.join(" ")
   }
-  //in the range except the first element, if word is part of []
-
 }
